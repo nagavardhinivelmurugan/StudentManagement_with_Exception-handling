@@ -1,0 +1,25 @@
+package com.mile1.exception;
+
+public class NullMarksArrayException extends Exception {
+   
+    public String toString() {
+        return "NullMarksArrayExceptionOccurred";
+    }
+}
+***
+package com.mile1.exception;
+
+public class NullStudentException extends Exception {
+	public String toString() {
+		return"NullStudentExceptionOccured";
+	}
+
+}
+***
+package com.mile1.exception;
+
+public class NullNameException extends Exception {
+    public String toString() {
+        return "NullNameException occurred";
+    }
+}
